@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/types.ts","./src/vite-env.d.ts","./src/components/pagination.tsx","./src/pages/categoriespage.tsx","./src/pages/peoplepage.tsx","./src/pages/totalsbycategorypage.tsx","./src/pages/totalsbypersonpage.tsx","./src/pages/transactionspage.tsx"],"version":"5.6.3"}
