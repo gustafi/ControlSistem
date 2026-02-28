@@ -6,7 +6,7 @@ Sistema para gerenciamento de gastos residenciais com cadastro de pessoas, categ
 
 - **Back-end:** C# e .NET 10
 - **Front-end:** React com TypeScript (Vite)
-- **Persistência:** SQLite (dados persistem após reiniciar o sistema)
+- **Persistência:** SQLite
 
 ## Estrutura do Projeto
 
