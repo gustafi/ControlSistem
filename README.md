@@ -40,7 +40,6 @@ WebApplication1/
 ### Cadastro de Transações
 - Criar e listar transações
 - Campos: Id (auto), Descrição (máx 400), Valor (positivo), Tipo (despesa/receita), Categoria, Pessoa
-- Menores de 18 anos só podem registrar despesas
 - Categoria deve ter finalidade compatível com o tipo
 
 ### Consultas
