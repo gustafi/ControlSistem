@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Backend .NET (porta 44303 + Swagger)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/WebApplication1/bin/Debug/net10.0/WebApplication1.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/WebApplication1",
+      "stopAtEntry": false,
+      "env": {
+        "ASPNETCORE_URLS": "https://localhost:44303;http://localhost:8080",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    {
+      "name": "Backend .NET",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/WebApplication1/bin/Debug/net10.0/WebApplication1.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/WebApplication1",
+      "stopAtEntry": false
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Frontend React (Chrome)",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/client"
+    }
+  ]
+}
